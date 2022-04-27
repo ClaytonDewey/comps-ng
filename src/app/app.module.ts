@@ -15,10 +15,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
     NotFoundComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
     ElementsModule,
-    CollectionsModule
+    CollectionsModule,
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
